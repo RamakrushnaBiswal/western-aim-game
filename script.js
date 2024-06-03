@@ -8,7 +8,7 @@ let score = 0;
 let timeLeft = 60; // 1 dakika (60 saniye)
 
 function updateScore() {
-  scoreDisplay.textContent = `Skor: ${score} - Süre: ${formatTime(timeLeft)}`;
+  scoreDisplay.textContent = `Score: ${score} - Duration: ${formatTime(timeLeft)}`;
 }
 
 function generateRandomPosition() {
